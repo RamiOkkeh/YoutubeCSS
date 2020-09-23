@@ -280,11 +280,45 @@
 
 
 
-.recom {
-	display:block;
-	float: left;
+.recommended {
+	display: flex;
+	flex-flow: column;
 	width: 31.7%;
 	height: 500px;
 	/*background-color: #181818;*/
-	background-color: green;
+	/*background-color: green;*/
+}
+.recom {
+	display: flex;
+	flex-flow: row;
+	height: 95px;
+	width: 170px;
+	margin: 10px;
+}
+.recom-img {
+	height: 100%;
+	width: 100%;
+}
+.recom-text {
+	display: flex;
+	flex-flow: column;
+}
+.recom-title {
+	width: 300%;
+	height: 40px;
+	overflow: hidden;
+	color: white;
+	font-size: 14px;
+	margin-left: 8px;
+	/*background-color: red;*/
+}
+.recom-info {
+	align-self: row;
+	font-size: 10px;
+	color: #909090;
+	margin-top: -10px;
+	margin-left: 8px;
+	margin-bottom: -100px;
+	padding-top: 2px;
+	/*background-color: red;*/
 }
