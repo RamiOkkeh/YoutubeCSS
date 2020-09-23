@@ -276,8 +276,50 @@
 	margin-left: 4.5%;
 	background-color: #303030;
 }
-
-
+.channel-sub {
+	display: flex;
+	flex-flow: row;
+	margin-left: 67px;
+	margin-top: 15px;
+}
+.channel {
+	height: 48px;
+	width: 48px;
+	min-width: 48px;
+	background-image: url('https://yt3.ggpht.com/a/AATXAJzx10rfTg3y1dtXrnQAe86B-ForF48KxTb-dyA=s88-c-k-c0xffffffff-no-rj-mo');
+	background-size: 100% 100%;
+	background-color: transparent;
+	border-radius: 50px;
+}
+.channel-text {
+	flex-flow: column;
+}
+.name {
+	width: 250%;
+	overflow: hidden;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 0px -4px 16px;
+	/*background-color: red;*/
+}
+.sub-num {
+	font-size: 13px;
+	font-weight: bold;
+	color: #909090;
+	margin-left: 16px;
+}
+.sub-btn {
+	/*align-self: flex-end;*/
+	height: 37px;
+	min-width: 114px;
+	background-image: url('pic/subscribe.png');
+	background-size: 100% 100%;
+	background-color: transparent;
+	border-radius: 8px;
+	margin-left: 69.8%;
+	margin-top: 8px;
+}
 
 
 .recommended {
