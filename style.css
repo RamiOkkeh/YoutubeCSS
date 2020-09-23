@@ -128,10 +128,13 @@
 	background-size: 100% 100%;
 	background-image: url('https://i.pinimg.com/originals/51/b9/b0/51b9b0a274a993750f3b6a9ad7a8d4ce.jpg');
 }
+.video-container {
+	display: flex;
+}
 .left-bar {
 	float: left;
 	height: 585px;
-	width: 238px;
+	width: 240px;
 	background-color: black;
 }
 .vid {
@@ -141,22 +144,84 @@
 .right-bar {
 	float: left;
 	height: 585px;
-	width: 238px;
+	width: 239px;
 	background-color: black;
 }
 .under {
+	display: flex;
 	background-color: #181818;
+	border: none;
+	outline: none;
 }
 .info {
-	float: left;
-	width: 70%;
-	height: 50px;
+	display: flex;
+	flex-flow: column nowrap;
+	/*justify-content: flex-start;*/
+	/*float: left;*/
+	width: 68.3%;
+	/*height: 50px;*/
+	background-color: #181818;
+}
+.stupid {
+	display: flex;	
 }
 .title {
-
+	color: white;
+	padding-left: 6.4%;
+	padding-top: 1.8%;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68%;
+	/*background-color: blue;*/
 }
+.t1 {
+	font-size: 18px;
+}
+.views {
+	color: #AAAAAA;
+	margin-top: 8px;
+}
+.interact {
+	/*display: inline;*/
+	/*float: left;*/
+	width: 40%;
+	/*background-color: red;*/
+}
+.like-dislike {
+	display: flex;
+}
+.like {
+	width: 19px;
+	height: 17px;
+	background-image: url('like.png');
+	background-size: 100% 100%;;
+	background-color: transparent;
+	margin-top: 57px;
+	margin-left: 20px; 
+	border: none;
+	outline: none;
+}
+.likes {
+	/*display: inline;*/
+	color: #AAAAAA;
+	margin-top: 53px;
+	margin-left: 6px;
+	font-weight: bold;
+}
+.comments {
+	/*float: left;*/
+	/*width: 60%;*/
+	background-color: purple;
+}
+
+
 
 
 .recom {
-
+	display:block;
+	float: left;
+	width: 31.7%;
+	height: 500px;
+	/*background-color: #181818;*/
+	background-color: green;
 }
