@@ -4,6 +4,8 @@ resources.thumbs = ['http:/i3.ytimg.com/vi/6JQpwY_f2QM/maxresdefault.jpg', 'http
 resources.titles = ['exploring the japanese kit kat forest', 'Bear Plays Spelunky 2 (Ep. 3)', 'Please Don\'t Do This Naked! You\'ll regret it... Ellen DeGeneres\' Scandal Apology Mocked & More News', 'BIG BRAIN BAMBOOZLING! (Amongst Us w/ Derp Crew)', 'Binging with Babish Triple Gooberberry Sunrise', 'The Biggest Lie of Me EXPOSED', 'US surpasses 200,000 coronavirus deaths', 'Re:Zero IN 8 MINUTES', 'KDA Pop/Stars - League Of Legends', 'TWICE "FANCY" M/V', 'Pouring Fire On a Burger', 'The Best Of The Internet (2019)', 'A Squirrel Frozen in Time', 'Upsilon Dies Backwords', 'and then we\'ll be ok', 'Bear and Goose at the End of Everything', 'The Moon is a Door to Forever', 'Waterproofing My Life With FLEX TAPE - JonTron']
 resources.channels = ['Philip DeFranco', 'BearTaffy', 'Pewdiepie', 'internet historian', 'ChilledChaos', 'Binging With Babish', 'CNN', 'Jazza', 'RogersBase', 'JoyBoy', 'Daily Dose Of Internet', 'Disguised Toast', 'Markiplier', 'Jacksepticeye', 'exurb1a', 'JonTron', 'Gigguk', 'TWICE']
 
+// generating 10 random video recommendations
+// =====================================================
 generate(13)
 
 
@@ -31,8 +33,27 @@ function generate(num) {
 	}
 }
 
+// adding functionality to show more button
+// ===============================================
 
+$(document).ready(function(){
+	var $showMore = $('.show-more')
+	var $showLess = $('.show-less')
+	$showMore.on('click', more)
+	$showLess.on('click', less)
+	$showLess.hide()
 
+	function more() {
+		$('.desc').css({maxHeight : "10000px"})
+		$showMore.hide()
+		$showLess.show()
+	}
+	function less() {
+		$('.desc').css({maxHeight : "63px"})
+		$showMore.show()
+		$showLess.hide()
+	}
+})
 
 
 // helper functions

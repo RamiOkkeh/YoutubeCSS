@@ -320,6 +320,52 @@
 	margin-left: 69.8%;
 	margin-top: 8px;
 }
+.channel-description {
+	display: flex;
+	flex-flow: column;
+	margin-top: 5px;
+}
+.desc {
+	max-height: 63px;
+	color: white;
+	overflow: hidden;
+	margin-left: 13%;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-family: 'Acme';
+	line-height: 130%
+}
+.show-more {
+	width: 80px;
+	height: 30px;
+	margin-left: 12.6%;
+	margin-bottom: 13px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: #AAAAAA;
+	background-color: transparent;
+}
+.show-desc {
+	max-height: auto;
+}
+.show-less {
+	width: 80px;
+	height: 30px;
+	margin-left: 12.6%;
+	margin-bottom: 13px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: #AAAAAA;
+	background-color: transparent;
+}
+
+
 
 
 .recommended {
