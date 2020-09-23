@@ -53,7 +53,7 @@
 	border: none;
 	left: 593px;
 	background-color: #313131;
-	background-image: url('search.png');
+	background-image: url('pic/search.png');
 	background-size: 27% 48%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -109,7 +109,7 @@
 	left: 820px;
 	top: 2px;
 	background-color: #202020;
-	background-image: url('bell.png');
+	background-image: url('pic/bell.png');
 	background-size: 58% 66%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -194,7 +194,7 @@
 .like {
 	width: 19px;
 	height: 17px;
-	background-image: url('like.png');
+	background-image: url('pic/like.png');
 	background-size: 100% 100%;;
 	background-color: transparent;
 	margin-left: 10px; 
@@ -211,7 +211,7 @@
 .dislike {
 	width: 19px;
 	height: 17px;
-	background-image: url('like.png');
+	background-image: url('pic/like.png');
 	background-size: 100% 100%;
 	transform: rotate(180deg);
 	background-color: transparent;
@@ -237,7 +237,7 @@
 	display: flex;
 }
 .share {
-	background-image: url('share.png');
+	background-image: url('pic/share.png');
 	background-size: 100% 100%;
 	background-color: transparent;
 	border: none;
@@ -248,7 +248,7 @@
 	margin-left: 8px;
 }
 .save {
-	background-image: url('save.png');
+	background-image: url('pic/save.png');
 	background-size: 100% 100%;
 	background-color: transparent;
 	border: none;
@@ -259,7 +259,7 @@
 	margin-left: 8px;
 }
 .dots {
-	background-image: url('dots.png');
+	background-image: url('pic/dots.png');
 	background-size: 100% 100%;
 	background-color: transparent;
 	border: none;
