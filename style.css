@@ -130,21 +130,23 @@
 }
 .video-container {
 	display: flex;
+	margin-top: 56px;
 }
 .left-bar {
 	float: left;
-	height: 585px;
-	width: 240px;
+	/*height: 585px;*/
+	width: 15.745%;
 	background-color: black;
 }
 .vid {
 	float: left;
-	height: 585px;
+	/*height: 585px;*/
+	width: 68.51%;
 }
 .right-bar {
 	float: left;
-	height: 585px;
-	width: 239px;
+	/*height: 585px;*/
+	width: 15.745%;
 	background-color: black;
 }
 .under {
