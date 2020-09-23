@@ -1,53 +1,57 @@
 #top-bar {
 	width: 100%;
-	height: 70px;
+	height: 56px;
 	/*position: sticky;*/
 	background-color: #202020;
 }
 .icon {
-	height: 26px;
-	margin-top: 10px;
-	margin-left: 8px;
+	height: 21px;
+	margin-bottom: 2px;
+	margin-left: 1px; 
 	filter: invert(100%);
 }
 .icon1 {
-	height: 43px;
-	margin-left: 4px;
-	margin-top: 2px;
+	height: 21px;
+	margin-left: 9px;
+	margin-bottom: 2px;
 }
 .icon2 {
 	position: relative;
-	height: 28px;
-	left: -26px;
-	margin-top: 9px;
+	height: 23px;
+	left: -16px;
+	margin-bottom: 2px;
 }
 .search {
 	position: relative;
-	left: 118%;
-	width: 288%;
-	height: 40px;
+	left: 117%;
+	width: 287%;
+	height: 32px;
+	top: 0.5px;
 	outline: none;
 	border: 1px #303030 solid;
 	border-radius: 2px;
-	margin-top: 3px;
+	margin-top: -3px;
+	margin-bottom: -10px;
 	background-color: #121212;
 	color: #E2E2E2;
-	padding-left: 15px;
+	padding-left: 13px;
 	font-family: 'Archivo';
-	font-size: 20px
+	font-size: 16px;
 }
 .search::placeholder {
 	font-family: 'Archivo';
-	font-size: 20px;
+	font-size: 16px;
 }
 .btn1 {
 	position: relative;
-	width: 80px;
-	padding-bottom: 15px;
+	width: 65px;
+	height: 32px;
+	top: 1px;
+	margin-top: -10px;
+	margin-bottom: -10px;
 	outline: none;
 	border: none;
-	left: 746px;
-	top: 3px;
+	left: 593px;
 	background-color: #313131;
 	background-image: url('search.png');
 	background-size: 27% 48%;
@@ -56,21 +60,24 @@
 }
 .btn2 {
 	position: relative;
-	width: 40px;
-	height: 40px;
+	width: 24px;
+	height: 24px;
 	outline: none;
 	border: none;
-	left: 1037px;
-	top: 3px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	left: 824.5px;
+	top: -3px;
 	background-color: #202020;
 	background-image: url('https://www.materialui.co/materialIcons/av/video_call_white_192x192.png');
-	background-size: 75% 75%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .btn3 {
 	display: grid;
-	grid-gap: 3px;
+	grid-gap: 2px;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
 	justify-content: center;
@@ -80,24 +87,27 @@
 	height: 40px;
 	outline: none;
 	border: none;
-	left: 1042px;
-	top: 3px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	left: 824.6px;
+	top: 3.5px;
 	background-color: #202020;
 }
 .white-box {
-	width: 5px;
-	height: 5px;
-	/*margin: 0px;*/
+	width: 4px;
+	height: 4px;
 	background-color: white;
 }
 .btn4 {
 	position: relative;
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	outline: none;
 	border: none;
-	left: 1046px;
-	top: 4px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	left: 820px;
+	top: 2px;
 	background-color: #202020;
 	background-image: url('bell.png');
 	background-size: 58% 66%;
@@ -106,29 +116,47 @@
 }
 .btn5 {
 	position: relative;
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	outline: none;
 	border: none;
-	left: 1062px;
-	top: 3px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	left: 831px;
+	top: 1px;
 	border-radius: 50px;
 	background-size: 100% 100%;
 	background-image: url('https://i.pinimg.com/originals/51/b9/b0/51b9b0a274a993750f3b6a9ad7a8d4ce.jpg');
 }
 .left-bar {
 	float: left;
-	height: 733px;
-	width: 298px;
+	height: 585px;
+	width: 238px;
 	background-color: black;
 }
 .vid {
 	float: left;
-	height: 733px;
+	height: 585px;
 }
 .right-bar {
 	float: left;
-	height: 733px;
-	width: 297px;
+	height: 585px;
+	width: 238px;
 	background-color: black;
+}
+.under {
+	background-color: #181818;
+}
+.info {
+	float: left;
+	width: 70%;
+	height: 50px;
+}
+.title {
+
+}
+
+
+.recom {
+
 }
