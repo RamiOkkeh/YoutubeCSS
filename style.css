@@ -409,7 +409,7 @@
 	height: 30px;
 	width: 86.3%;
 	padding: 0px 0px -50px 0px;
-	margin: 16px 0px 0px 16px;
+	margin: 16px 0px 60px 16px;
 	border: none;
 	border-bottom: 1px solid #303030;
 	outline: none;
@@ -456,10 +456,80 @@
 	flex-flow: row;
 }
 .users-img {
-	
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-left: 68px;
 }
-
-
+.username {
+	display: flex;
+	flex-flow: row;
+}
+.users-name {
+	color: white;
+	font-size: 14px;
+	margin: 18px 0px 0px 16px;
+}
+.users-com-date {
+	color: grey;
+	font-size: 14px;
+	margin: 19px 0px 0px 10px;
+}
+.users-com {
+	color: white;
+	font-size: 15px;
+	margin: 0px 0px 0px 16px;
+}
+.users-reaction {
+	display: flex;
+	flex-flow: row;
+}
+.users-like {
+	width: 15px;
+	height: 14px;
+	background-image: url('pic/like.png');
+	background-size: 100% 100%;;
+	background-color: transparent;
+	margin-left: 15px;
+	margin-top: 15px; 
+	border: none;
+	outline: none;
+}
+.users-like-num {
+	color: #AAAAAA;	
+	margin-top: 12px;
+	margin-left: 6px;
+	font-size: 13px;
+	/*font-weight: bold;*/
+}
+.users-dislike {
+	width: 15px;
+	height: 14px;
+	background-image: url('pic/like.png');
+	background-size: 100% 100%;;
+	transform: rotate(180deg);
+	background-color: transparent;
+	margin-left: 15px;
+	margin-top: 15px; 
+	border: none;
+	outline: none;
+}
+.users-reply {
+	/*909090*/
+	padding: 0px;
+	margin-left: 22px;
+	margin-top: 11.5px; 
+	width: 50px;
+	height: 20px;
+	line-height: 100%;
+	color: #909090;
+	font-weight: bold;
+	font-size: 13.7px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
 
 
 
