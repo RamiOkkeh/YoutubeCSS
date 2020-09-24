@@ -128,6 +128,12 @@
 	background-size: 100% 100%;
 	background-image: url('https://i.pinimg.com/originals/51/b9/b0/51b9b0a274a993750f3b6a9ad7a8d4ce.jpg');
 }
+
+
+
+
+
+
 .video-container {
 	display: flex;
 	margin-top: 56px;
@@ -149,6 +155,14 @@
 	width: 15.745%;
 	background-color: black;
 }
+
+
+
+
+
+
+
+
 .under {
 	display: flex;
 	background-color: #181818;
