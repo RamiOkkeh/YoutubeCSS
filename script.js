@@ -59,9 +59,6 @@ function generateUsersComments(num) {
 	setTimeout(function(){generateUsersComments(num)}, 1200)
 }
 
-
-
-
 // adding functionality to show more button
 // ===============================================
 
@@ -84,9 +81,31 @@ $(document).ready(function(){
 	}
 })
 
+// adding functionality to comment button
+// ===============================================
+
+$('.com-post').on('click', comment)
+var commId = 1000
+function comment() {
+	var comm = $('.user-com').val()
+	if (comm === '') {
+		return 0
+	}
+	var comment = $('<div class="comment"><img class="users-img" src="https://i.pinimg.com/originals/51/b9/b0/51b9b0a274a993750f3b6a9ad7a8d4ce.jpg" alt=""><div id="'+(++commId)+'" class="users-com-info"></div></div>')
+	$('.write').after(comment)
+	var username = $('<div class="username"><p class="users-name">visitor</p><p class="users-com-date"> 1 second ago</p></div>')
+	var usersCom = $('<p class="users-com">'+comm+'</p>')
+	var usersReaction = $('<div class="users-reaction"><input class="users-like" type="button" name=""><p class="users-like-num">0</p><input class="users-dislike" type="button" name=""><input class="users-reply" type="button" name="" value="REPLY"></div>')
+	$('#'+commId).append(username, usersCom, usersReaction)
+}
+
+$('.com-cancel').on('click', cancel)
+function cancel() {
+	$('.user-com').val('')
+}
 
 // helper functions
-//============================
+// ===============================================
 
 function randomNum(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min
