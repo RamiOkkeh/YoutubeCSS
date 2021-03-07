@@ -1,111 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>youtube</title>
-	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <title>youtube</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="top-bar">
+      <ul class="navbar-nav">
+        <li class="nav-link">
+          <img
+            class="icon text-center"
+            src="https://static.thenounproject.com/png/61778-200.png"
+          />
+        </li>
+        <li class="nav-link">
+          <img class="icon1" src="pic/logo.png" />
+        </li>
+        <li class="nav-link">
+          <img class="icon2" src="pic/youtube.png" />
+        </li>
+        <li class="nav-link">
+          <input class="search" type="text" name="" placeholder="Search" />
+        </li>
+        <li class="nav-link">
+          <input class="btn1" type="button" name="" />
+        </li>
+        <li class="nav-link">
+          <input class="btn2" type="button" name="" />
+        </li>
+        <li class="nav-link">
+          <div class="btn3">
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+            <div class="white-box"></div>
+          </div>
+        </li>
+        <li class="nav-link">
+          <input class="btn4" type="button" name="" />
+        </li>
+        <li class="nav-link">
+          <input class="btn5" type="button" name="" />
+        </li>
+      </ul>
+    </nav>
 
-	<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="top-bar">
-		<ul class="navbar-nav">
-			<li class="nav-link">
-				<img class="icon text-center" src="https://static.thenounproject.com/png/61778-200.png">
-			</li>
-			<li class="nav-link">
-				<img class="icon1" src="pic/logo.png">
-			</li>
-			<li class="nav-link">
-				<img class="icon2" src="pic/youtube.png">
-			</li>
-			<li class="nav-link">
-				<input class="search" type="text" name="" placeholder="Search">
-			</li>
-			<li class="nav-link">
-				<input class="btn1" type="button" name="">
-			</li>
-			<li class="nav-link">
-				<input class="btn2" type="button" name="">
-			</li>
-			<li class="nav-link">
-				<div class="btn3">
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-					<div class="white-box"></div>
-				</div>
-			</li>
-			<li class="nav-link">
-				<input class="btn4" type="button" name="">
-			</li>
-			<li class="nav-link">
-				<input class="btn5" type="button" name="">
-			</li>
-		</ul>
-	</nav>
+    <div class="video-container">
+      <div class="left-bar"></div>
+      <video class="vid" controls>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <div class="right-bar"></div>
+    </div>
 
+    <div class="under">
+      <div class="info">
+        <div class="stupid">
+          <div class="title">
+            <h6 class="t1">Video Title</h6>
+            <p class="views">Views • Date</p>
+          </div>
 
-	<div class="video-container">
-	<div class="left-bar"></div>
-	<video class="vid" controls>
-		<source src="video.mp4" type="video/mp4">
-	</video>
-	<div class="right-bar"></div>
-	</div>
+          <div class="interact">
+            <div class="like-dislike">
+              <input class="like" type="button" name="" />
+              <p class="likes">366</p>
+              <input class="dislike" type="button" name="" />
+              <p class="likes">38</p>
+              <div class="ratio1"><div class="ratio2"></div></div>
+              <div class="shareBlock">
+                <input class="share" type="button" name="" />
+                <input class="save" type="button" name="" />
+                <input class="dots" type="button" name="" />
+              </div>
+            </div>
+          </div>
+        </div>
 
-	<div class="under">
+        <div class="slash"></div>
 
-		<div class="info">
+        <div class="channel-sub">
+          <div class="channel"></div>
+          <div class="channel-text">
+            <p class="name">BaerTaffy</p>
+            <p class="sub-num">143K subscribers</p>
+          </div>
+          <div class="sub-btn"></div>
+        </div>
 
-			<div class="stupid">
-
-				<div class="title">
-					<h6 class="t1">Video Title</h6>
-					<p class="views">Views • Date</p>
-				</div>
-
-				<div class="interact">
-					<div class="like-dislike">
-						<input class="like" type="button" name="">
-						<p class="likes">16</p>
-						<input class="dislike" type="button" name="">
-						<p class="likes">380</p>
-						<div class="ratio1"><div class="ratio2"></div></div>
-						<div class="shareBlock">
-							<input class="share" type="button" name="">
-							<input class="save" type="button" name="">
-							<input class="dots" type="button" name="">
-						</div>
-					</div>
-
-					
-				</div>
-
-			</div>
-
-			<div class="slash"></div>
-
-			<div class="channel-sub">
-				<div class="channel"></div>
-				<div class="channel-text">
-					<p class="name">BaerTaffy</p>
-					<p class="sub-num">143K subscribers</p>
-				</div>
-				<div class="sub-btn"></div>
-			</div>
-
-			<div class="channel-description">
-				<pre class="desc">
+        <div class="channel-description">
+          <pre class="desc">
 Music
 Games
 Memes and More!
@@ -113,62 +117,45 @@ Memes and More!
 
 
 actually thats about it...
-				</pre>
-				<input class="show-more" type="button" name="" value="SHOW MORE">
-				<input class="show-less" type="button" name="" value="SHOW LESS">
-			</div>
+				</pre
+          >
+          <input class="show-more" type="button" name="" value="SHOW MORE" />
+          <input class="show-less" type="button" name="" value="SHOW LESS" />
+        </div>
 
-			<div class="slash"></div>
+        <div class="slash"></div>
 
-			<div class="comments-section">
-				<div class="sort">
-					<p class="sort-com">100 Comments</p>
-					<input class="sort-btn" type="button" name="">
-				</div>
-				<div class="write">
-					<div class="user-img"></div>
-					<input class="user-com" type="text" name="" placeholder="Add a puplic comment...">
-					<input class="com-cancel" type="button" name="" value="CANCEL">
-					<input class="com-post" type="button" name="" value="COMMENT">
-				</div>
-				<!-- <div class="comment">
-					<img class="users-img" src="https://www.thispersondoesnotexist.com/image" alt="">
-					<div class="users-com-info">
-						<div class="username">
-							<p class="users-name">herp</p>
-							<p class="users-com-date"> 10 weeks ago</p>
-						</div>
-						<p class="users-com">blah blah blah</p>
-						<div class="users-reaction">
-							<input class="users-like" type="button" name="">
-							<p class="users-like-num">15</p>
-							<input class="users-dislike" type="button" name="">
-							<input class="users-reply" type="button" name="" value="REPLY">
-						</div>
-					</div>
-				</div> -->
-			</div>
+        <div class="comments-section">
+          <div class="sort">
+            <p class="sort-com">20 Comments</p>
+            <input class="sort-btn" type="button" name="" />
+          </div>
+          <div class="write">
+            <div class="user-img"></div>
+            <input
+              class="user-com"
+              type="text"
+              name=""
+              placeholder="Add a puplic comment..."
+            />
+            <input class="com-cancel" type="button" name="" value="CANCEL" />
+            <input class="com-post" type="button" name="" value="COMMENT" />
+          </div>
+        </div>
+      </div>
 
-		</div>
+      <div class="recommended">
+        <div class="auto-play">
+          <p class="up-next">Up next</p>
+          <p class="auto">AUTOPLAY</p>
+          <label class="switch">
+            <input type="checkbox" name="" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
 
-
-
-
-		<div class="recommended">
-			<div class="auto-play">
-				<p class="up-next">Up next</p>
-				<p class="auto">AUTOPLAY</p>
-				<label class="switch">
-					<input type="checkbox" name="">
-					<span class="slider round"></span>
-				</label>
-			</div>
-		</div>
-
-	</div>
-
-
-
-<script type="text/javascript" src="script.js"></script>
-</body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
