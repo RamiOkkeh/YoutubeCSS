@@ -2,4 +2,6 @@
 
 This is my attempt to replicate the [_Youtube_](https://youtube.com/) user interface
 
-<img src="https://media.giphy.com/media/kT8V0wfXK5tX3aGqvt/giphy.gif" width="800" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></img><p><a href="https://giphy.com/gifs/kT8V0wfXK5tX3aGqvt">via GIPHY</a></p>
+<a href="">
+    <img src="https://media.giphy.com/media/kT8V0wfXK5tX3aGqvt/giphy.gif" width="650" height="auto" align="center" class="giphy-embed" allowFullScreen></img>
+</a>
