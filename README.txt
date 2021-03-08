@@ -1,5 +1,5 @@
-	Rami Okkeh Solo Project:
+ # YoutubeCSS
 
-for this project i decided to clone youtube.com's interface with as much detail as possible
+This is my attempt to replicate the [*Youtube*](https://youtube.com/) user interface
 
-the page displays best at 1080p resolotion with default(100%) browser zoom settings
+<iframe src="https://giphy.com/embed/kT8V0wfXK5tX3aGqvt" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kT8V0wfXK5tX3aGqvt">via GIPHY</a></p>
