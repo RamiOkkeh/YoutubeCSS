@@ -8,7 +8,7 @@ This is my attempt to replicate the [_Youtube_](https://youtube.com/) user inter
 
 ## Description
 
-For this project i attempted to recreate youtubes interface with as much detail as i could,
+For this project I attempted to re-create youtubes interface with as much detail as I could,
 this is mostly just an interface design with very minimal interactive elements, although it does implement dynamicly generated user comments that were generated using a Machine learning algorithm that generates random persons.
 <br/>
 <br/>
@@ -20,3 +20,8 @@ This project was my first experence working with CSS, it turned out looking pret
 - CSS
 - JavaScript
 - [TPDNE](https://thispersondoesnotexist.com/) for generating user profiles
+
+## Upcomming Updates
+
+- Responsive interface
+- Interactive Elements
