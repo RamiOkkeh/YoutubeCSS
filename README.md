@@ -8,8 +8,10 @@ This is my attempt to replicate the [_Youtube_](https://youtube.com/) user inter
 
 ## Description
 
-for this project i attempted to recreate youtubes interface with as much detail as i could,
+For this project i attempted to recreate youtubes interface with as much detail as i could,
 this is mostly just an interface design with very minimal interactive elements, although it does implement dynamicly generated user comments that were generated using a Machine learning algorithm that generates random persons.
+<br/>
+This project was my first experence working with CSS, it turned out looking pretty good, and it motivated me to spend more time polishing the interface of my future projects.
 
 ## Technologies
 
