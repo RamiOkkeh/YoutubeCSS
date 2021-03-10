@@ -1,6 +1,6 @@
 # YoutubeCSS
 
-This is my attempt to replicate the [_Youtube_](https://youtube.com/) user interface
+This is my attempt to replicate the [_Youtube_](https://www.youtube.com/watch?v=xuCn8ux2gbs) user interface
 
 <a href="https://youtubeinterface.herokuapp.com/" align="center">
     <img src="youtubeCSS.gif" width="800" height="auto" align="center"></img>
