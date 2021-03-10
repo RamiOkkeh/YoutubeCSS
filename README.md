@@ -16,9 +16,8 @@ This project was my first experience working with CSS, it turned out looking pre
 
 ## Technologies
 
-- HTML
-- CSS
-- JavaScript
+- CSS used to style the interface
+- JavaScript used to generating random video recommendations and user comments, also handling comment functionality
 - [TPDNE](https://thispersondoesnotexist.com/) for generating user profiles
 
 ## Upcomming Updates
