@@ -24,7 +24,7 @@ This project was my first experience working with CSS, it turned out looking pre
 
 1. [style](https://github.com/RamiOkkeh/YoutubeCSS/blob/master/style.css)
    - Contains all the css for the website.
-2. [script](https://github.com/RamiOkkeh/Memory-Card-Game/blob/master/script.js)
+2. [script](https://github.com/RamiOkkeh/YoutubeCSS/blob/master/script.js)
    - Contains resources used for generating content.
    - Generates video recommendations and comments.
    - Handles user interactions, such as _Show More_ for the description, and _Comment_ functionality.
