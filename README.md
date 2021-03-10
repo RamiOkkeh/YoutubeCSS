@@ -34,4 +34,4 @@ This project was my first experience working with CSS, it turned out looking pre
 - Responsive interface
 - Interactive Elements
 
-## Deployed Link [YoutubeCSS](https://youtubeinterface.herokuapp.com/)
+## Deployed Link: [YoutubeCSS](https://youtubeinterface.herokuapp.com/)
